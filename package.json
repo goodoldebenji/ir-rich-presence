@@ -4,7 +4,8 @@
   "description": "iRacing SDK implementation for nodejs",
   "main": "src/node-irsdk.js",
   "scripts": {
-    "install": "node-gyp rebuild"
+    "install": "node-gyp rebuild",
+    "start": "node app.js"
   },
   "keywords": [
     "irsdk",
@@ -14,7 +15,9 @@
   "author": "Holger Miefert",
   "license": "MIT",
   "dependencies": {
+    "discord-rpc": "^4.0.1",
     "js-yaml": "^4.1.0",
-    "nan": "^2.17.0"
+    "nan": "^2.17.0",
+    "node-irsdk-2023": "github:hmiefert/node-irsdk-2023"
   }
 }
