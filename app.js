@@ -10,7 +10,7 @@ const rpc = new RPC.Client({
 })
 
 
-
+/*
 iracing.on('Connected', function () {
     console.log('iRacing telemetry connected')
 })
@@ -34,6 +34,7 @@ iracing.on('SessionInfo', function (evt) {
 iracing.on('update', function (evt) {
     console.log(evt)
 })
+*/
 
 rpc.on("ready", () =>{
     iracing.on('SessionInfo', function (evt) {
